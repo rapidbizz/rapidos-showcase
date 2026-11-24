@@ -1,0 +1,25 @@
+/* Demo example — a small stylesheet for the audit example.
+   Illustrative example only, not product code. */
+
+.audit-card {
+  max-width: 480px;
+  padding: 1rem;
+  border: 1px solid #cbd5e1;
+  border-radius: 0.75rem;
+  font-family: system-ui, sans-serif;
+}
+
+.audit-card .score-hot {
+  color: #16a34a;
+  font-weight: 700;
+}
+
+.audit-card .score-warm {
+  color: #d97706;
+  font-weight: 700;
+}
+
+.audit-card .score-cold {
+  color: #dc2626;
+  font-weight: 700;
+}
